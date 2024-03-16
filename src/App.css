@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: #292521;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 20px 0 10px;
+    font-size: x-large;
+    /* color: #509452; */
+}
+.content{
+    font-size: 16px;
+    color: #e6c7a8;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+a{
+ @apply text-[#f5ae2d] border-transparent border-b-2 hover:border-b-2 hover:border-[#f5ae2d] transition duration-300 ease-in-out 
+}
