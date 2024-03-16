@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 body{
-    background-color: #292521;
+    background-color: #0c0d11;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
@@ -13,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content{
     font-size: 16px;
-    color: #e6c7a8;
+    color: #7a7faf;
 }
 
 p {
@@ -36,5 +39,6 @@ ul {
 }
 
 a{
- @apply text-[#f5ae2d] border-transparent border-b-2 hover:border-b-2 hover:border-[#f5ae2d] transition duration-300 ease-in-out 
+ @apply text-[#4fcdb9] border-transparent border-b-2 hover:border-b-2 hover:border-[#4fcdb9] transition duration-300 ease-in-out 
 }
+

@@ -4,7 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Comfortaa: ["Comfortaa", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
+        Caveat: ["Caveat", "cursive"]
+      }
+    },
   },
   plugins: [],
 }
