@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom'
-
 const Portfolio = () => {
 
     return <>
@@ -8,6 +7,7 @@ const Portfolio = () => {
           <div className="content inline-block cn font-Montserrat m-auto mb-[20px]" >
             <h1 className='text-4xl'>Sahiwl</h1>
             <p className='-mt-5 pl-20 ml-5 '>...aka Sahil </p>
+
             <p>
               <img src="./megamind.jpg" className="size-24 rounded-full"/>
             </p>
@@ -17,8 +17,8 @@ const Portfolio = () => {
             <p>always up for tech-events, conferences, hackathons</p>
             <p>waist-deep into dev, philosphy, stoicism, indie-rock</p>
             <p>must read: <a href="https://www.google.co.in/books/edition/Embrace_the_Suck/hr3bDwAAQBAJ?hl=en&gbpv=0" target="_blank">.    .    .     .</a></p>
-            <p>hmu on discord: <code><a href="https://discord.com/users/550329365444034561" target="_blank">let's converse</a></code></p>
-            <h2>now</h2>
+            <p>hmu on  <a href="https://discord.com/users/550329365444034561" target="_blank">discord</a></p>
+            <h2>presently</h2>
             <ul>
               <li>a sophmore pursuing B.Tech (CSE)</li>
               <li>deep diving web-dev</li>
@@ -26,8 +26,8 @@ const Portfolio = () => {
               <li>building small projects every week</li>
             </ul>
             <h2>alter egos</h2>
-            <p><a href='https://twitter.com/sahilwithocd' target="_blank">twitter </a>, <a href="https://github.com/sahiwl" target="_blank">github</a>, <a href="https://www.instagram.com/saahilkr" target="_blank">instagram</a></p>
-            <h2>more of me:</h2>
+            <p><a href='https://twitter.com/sahilwithocd' target="_blank">twitter</a>, <a href="https://github.com/sahiwl" target="_blank">github</a>, <a href="https://www.instagram.com/saahilkr" target="_blank">instagram</a></p>
+            <h2>more of me</h2>
             <ul>
               <li><Link to="/aboutme">about me</Link></li>
               <li> <Link to="/projects">mini-projects</Link></li>
